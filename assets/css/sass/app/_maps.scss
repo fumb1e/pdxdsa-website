@@ -1,0 +1,33 @@
+$z-layers: (
+    "specialFooterImageMiddle": 100,
+    "specialFooterImageTop":    200,
+    "videoOverlay":             1000,
+    "video":                    2000,
+	
+	// carousel slides are 100 or less
+	// "carousel_prevNext":  200,
+	// "navDropdown":        300,
+	// "containerModal":     2000, // remember: modal diag uses videoOverlay for its backdrop!
+	// "modal":              3000,
+	);
+
+$colors: (
+	gray: (
+        base:   #999999,
+        darker: #666666,
+        light:  #ebebeb,
+        dark:   #333333
+		),
+	warms: (
+        yellow: #daaa00,
+        orange: #e87722,
+        rust:   #a7282a
+		),
+	blue: (
+		base: #255487,
+		light: #007dba
+		),
+	green: (
+		base: #8f993e,
+		),
+	);

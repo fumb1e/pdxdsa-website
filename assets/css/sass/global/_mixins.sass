@@ -1,0 +1,90 @@
+// =================================
+// = Mixins, functions, and styles =
+// =================================
+
+=marginCenter( $ai_width )
+	margin-left: auto
+	margin-right: auto
+	width: $ai_width
+
+=marginZero
+	margin: 0
+	padding: 0
+
+=bbg($color:lime)
+	//"(B)order de(B)u(G)"
+	border: 2px solid $color
+
+=inlineListNav
+	// 2014-05-29, 10:47 PM - joel@pdg
+	// Use Compass's @include horizontal-list() instead
+
+	// Always apply to a UL
+	margin: 0
+	padding: 0
+
+	li
+		display: inline
+		
+		a
+			@extend .ir
+			
+			display: inline-block		
+			
+=verticalCenterViaMarginTop($containerHeight, $elementHeight)
+	margin-top: (($containerHeight - $elementHeight) / 2)
+
+=verticalCenterViaPaddingTop($containerHeight, $elementHeight)
+	padding-top: (($containerHeight - $elementHeight) / 2)
+
+=spaceAroundBorderHorz($space, $side:right)
+	// Doesn't apply to flexbox centered stuff (maybe other flexbox stuff?)
+	@if $side == right
+		padding-right: $space
+		margin-left: $space
+	
+	@if $side == left
+		padding-left: $space
+		margin-right: $space
+
+=spaceAroundBorderVert($space, $side:top)
+	// Doesn't apply to flexbox centered stuff (maybe other flexbox stuff?)
+	@if $side == top
+		padding-top: $space
+		margin-bottom: $space
+	
+	@if $side == bottom
+		padding-bottom: $space
+		margin-top: $space
+
+=preventMarginCollapse
+	padding-top: 1px
+	padding-bottom: 1px
+	margin-top: -1px
+	margin-bottom: -1px
+
+=backgroundImageFillSize( $width, $height, $imagePath:null )
+	// Doesn't set bg image if none is supplied
+	@if $imagePath
+		background-image: url($imagePath)
+	
+	background-size: $width $height
+
+=backgroundImageBlock( $width, $height, $imagePath:null )
+	width: $width
+	height: $height
+
+	+backgroundImageFillSize( $width, $height, $imagePath )
+
+=backgroundImageReplacementBlock( $width, $height, $imagePath )
+	@extend .ir
+
+	display: block
+	+backgroundImageBlock( $width, $height, $imagePath )
+
+=noMarginForFollowingParagraph
+	& + p
+		margin-top: 0
+
+// clearfix mixin is located in the h5bp file.
+// Use in mediaqueries when one cannot @extend

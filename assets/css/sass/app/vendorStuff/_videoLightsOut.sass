@@ -1,0 +1,40 @@
+
+// Video stuff
+.lightsOutOverlay
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	z-index: z( "videoOverlay" )
+
+	background-color: black
+	opacity: 0.7
+
+.lightsOutVideo
+	display: none
+	// display: inline-block
+	// max-width: 480px
+
+	@at-root .fluid_width_video_wrapper
+		// fluid_width_video_wrapper name comes from YT's embed code
+		display: none
+
+	&__container
+		position: fixed
+		top: 10%
+		left: 0
+		z-index: z( "video" )
+		width: 100%
+		text-align: center
+	
+	&__video
+		width: 100%
+		height: auto
+
+	&__close
+		cursor: pointer
+		text-align: right
+		background-color: black
+		color: white
+		

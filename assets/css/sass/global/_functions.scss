@@ -1,0 +1,15 @@
+
+@function z($layer)
+{
+	// Thanks: http://www.sitepoint.com/better-solution-managing-z-index-sass/
+	@if not map-has-key($z-layers, $layer)
+		{
+		@warn "No layer found for `#{$layer}` in $z-layers map. Property omitted.";
+		}
+
+	@return map-get($z-layers, $layer);
+}
+
+@function getColor($color, $tone: 'base') {
+	@return map-get(map-get($colors, $color), $tone);
+}

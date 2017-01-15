@@ -1,0 +1,28 @@
+// These are the defaults . Override these with specific styles elsewhere, not here
+
+.swipe
+	position: relative
+	visibility: hidden
+	overflow: hidden
+
+	&__wrap
+		position: relative
+		overflow: hidden
+
+	&__slide
+		display: flex
+		justify-content: space-between
+		align-items: center
+
+		position: relative
+		width: 100%
+		float: left
+		
+.sliderControls
+	display: flex
+	justify-content: center
+	color: $colorRed
+
+	&__prev, &__next
+		margin: 0 1ex
+		cursor: pointer

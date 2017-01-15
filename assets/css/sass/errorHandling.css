@@ -1,0 +1,16 @@
+/*
+=====================================================================
+Version 0.1
+12/1/2005
+
+Put it in the code library for the first time. Starting it at 0.1. 
+=====================================================================
+*/
+
+.alertBox{ background-color: #fefccd; border: 1px solid #00fffe; font-size: 1.25em; margin: 10px; padding: 2px; width: 70%; }
+.alertBox h1{ border: none; color: #fff; font-size: larger; margin: 0px; }
+.alertBox h1.errorHeader { background-color: #ff8b30; }
+.alertBox h1.msgHeader { background-color: #6a9e4d; }
+.alertBox ul { margin: .8em; margin-left: 2em; }
+.error{ color: #d00830; }
+.msg { color: #008000; }

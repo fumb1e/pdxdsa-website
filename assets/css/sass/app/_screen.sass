@@ -1,0 +1,119 @@
+// =================
+// = HTML Elements =
+// =================
+
+html
+    font-size: 130%
+
+body
+    font-weight: 600
+    font-family: $fontFamilyBody
+
+a
+    font-weight: 800
+    color: black
+
+    &:hover
+        text-decoration: none
+
+    &:visited
+        color: #4c4c4c
+
+abbr, abbr[title]
+    border: none
+    text-decoration: none
+
+
+// ==================
+// = Global classes =
+// ==================
+
+.clickableCalloutButton
+    display: inline-block
+    margin: 0.4em 0
+
+    // The Klima font has a funky baseline thing going on. We need greater
+    // top padding to make the text appear vertically centered
+    padding: 0.5em
+    padding-top: 0.6em
+
+    border: $borderStyle1
+
+    color: $colorRed
+    font-size: 1.3em
+    font-weight: 600
+    text-decoration: none
+    line-height: 90%
+
+    &:hover
+        background-color: $colorRed
+        color: white
+
+.socialIcons
+    ul
+        +marginZero
+        @extend .clearfix
+        list-style: none
+
+    &__icon--facebook,
+    &__icon--twitter,
+        float: left
+        margin-right: 1em
+
+    &__icon--facebook
+        // background-image: url("#{$imagePath}socialIconFacebook.svg")
+        // Inlining for performance
+        +backgroundImageReplacementBlock( 40px, 40px, 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20x%3D%220%22%20y%3D%220%22%20viewBox%3D%220%200%20500%20500%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3A%23E92307%3B%7D%0A%3C%2Fstyle%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M470.1%202.5H29.7C14.6%202.5%202.4%2014.7%202.4%2029.8v440.4c0%2015.1%2012.2%2027.3%2027.3%2027.3h237.1V305.8h-64.5v-74.7h64.5V176c0-63.9%2039-98.8%2096.1-98.8%2027.3%200%2050.8%202%2057.7%202.9V147l-39.6%200c-31%200-37%2014.7-37%2036.4v47.7h74l-9.6%2074.7h-64.3v191.7h126.1c15.1%200%2027.3-12.2%2027.3-27.3V29.8C497.4%2014.7%20485.2%202.5%20470.1%202.5%22%2F%3E%3C%2Fsvg%3E' )
+
+    &__icon--twitter
+        // background-image: url("#{$imagePath}socialIconTwitter.svg")
+        // Inlining for performance
+        +backgroundImageReplacementBlock( 40px, 40px, 'data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20x%3D%220%22%20y%3D%220%22%20viewBox%3D%220%200%20629.1%20500%22%20xml%3Aspace%3D%22preserve%22%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%0A%09.st0%7Bfill%3A%23E92307%3B%7D%0A%3C%2Fstyle%3E%3Cpath%20class%3D%22st0%22%20d%3D%22M619%2061.1c-22.4%209.9-46.5%2016.7-71.8%2019.7%2025.8-15.5%2045.6-40%2054.9-69.2C578.1%2026%20551.3%2036.4%20522.9%2042%20500%2017.7%20467.6%202.5%20431.6%202.5c-69%200-125%2056-125%20125%200%209.8%201.1%2019.3%203.2%2028.5C206.1%20150.7%20114%20101%2052.3%2025.4%2041.6%2043.8%2035.4%2065.3%2035.4%2088.2c0%2043.4%2022.1%2081.6%2055.6%20104%20-20.5-0.6-39.7-6.3-56.6-15.6%200%200.5%200%201%200%201.6%200%2060.6%2043.1%20111.1%20100.2%20122.5%20-10.5%202.9-21.5%204.4-32.9%204.4%20-8.1%200-15.9-0.8-23.5-2.2%2015.9%2049.6%2062.1%2085.8%20116.7%2086.8%20-42.8%2033.5-96.7%2053.5-155.2%2053.5%20-10.1%200-20-0.6-29.8-1.7%2055.3%2035.5%20121%2056.1%20191.6%2056.1%20229.8%200%20355.5-190.4%20355.5-355.6%200-5.4-0.1-10.8-0.4-16.2C581.1%20108.2%20602.3%2086.2%20619%2061.1%22%2F%3E%3C%2Fsvg%3E' )
+
+
+// =======================
+// = Following page flow =
+// =======================
+
+.containerPage
+    margin: 0 1em
+    font-size: 1rem
+
+#logo
+    $logoSizes: 200px, 246px
+
+    width: nth($logoSizes, 1)/2
+    height: nth($logoSizes, 2)/1.7
+    background: url("#{$imagePath}logo@2x.png") no-repeat center nth($logoSizes, 2)/6;
+    background-color: $colorRed
+    background-size: nth($logoSizes, 1)/2.5 nth($logoSizes, 2)/2.5
+
+#mainHeading
+    @extend %headings
+    margin-bottom: -0.4em
+    font-size: 1.8em
+
+.sidebar
+    +preventMarginCollapse
+    margin-top: 1.5em
+    font-size: 1rem
+
+    &__heading
+        @extend %headings
+        font-size: 1.1em
+
+    ul
+        +marginZero
+        list-style: none
+
+    &__listItem
+        margin-bottom: 1em
+        line-height: 1.2em
+
+
+// =========================
+// = Section/Page specific =
+// =========================
+
+// None yet!
+

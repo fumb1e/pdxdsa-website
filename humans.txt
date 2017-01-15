@@ -3,14 +3,16 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Andy Pressman - Designer - https://rumo.rs/
+    Joel Coreson - Coder - https://prisedesign.com/
+    Dan Lidral-Porter - Server - https://twitter.com/aperiodic
 
 # THANKS
 
-    <name>
+    Democratic Socialists of America - http://www.dsausa.org/
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, html5boilerplate.com
-    Sublime Text 3
-
+    HTML5, CSS3, H5BP
+    Sublime Text 3, Tower (git client), CodeKit
+    Affinity Photo

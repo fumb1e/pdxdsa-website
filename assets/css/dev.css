@@ -1,0 +1,40 @@
+/*
+=====================================================================
+Version 0.3
+8/1/2006
+
+Used during site development 
+
+Put it in the code library for the first time. Starting it at 0.1. 
+0.2 - 03-30-2010 - Added placeholder styles
+0.3 - 2015-01-01 - Added border to alerts
+=====================================================================
+*/
+
+
+.dev_blockAlert,
+.dev_inlineAlert,
+.dev_blockPlaceholder,
+.dev_inlinePlaceholder {
+	font-weight: bold;
+	font-size: larger;
+}
+
+.dev_blockAlert,
+.dev_blockPlaceholder {
+	padding: 2em;
+}
+
+.dev_blockAlert,
+.dev_inlineAlert {
+	border: thin solid yellow;
+	background-color: yellow;
+	color: red;
+}
+
+.dev_blockPlaceholder,
+.dev_inlinePlaceholder {
+	background-color: green;
+	color: white;
+	border: medium dashed purple;
+}

@@ -1,0 +1,97 @@
+// Media Query dimensions
+// ----------------------
+$mqMobile: 320px
+$mqSmallTablet: 600px
+$mqTablet: 769px
+$mqDesktop: 1024px - 10px
+$mqFull: 1200px
+
+
+
+@media only screen and (min-width: $mqTablet)
+
+    // =======================
+    // = Following page flow =
+    // =======================
+
+    .containerPage
+        display: flex
+        margin: 0
+
+    #logo
+        flex-basis: 150px
+        flex-shrink: 0
+
+        $logoSizes: 230px, 282px
+
+        width: nth($logoSizes, 1)/2
+        height: nth($logoSizes, 2)/1.8
+        background: url("#{$imagePath}logo@2x.png") no-repeat center nth($logoSizes, 2)/7;
+        background-color: $colorRed
+        background-size: nth($logoSizes, 1)/2.5 nth($logoSizes, 2)/2.5
+
+    #mainHeading
+        font-size: 2.3em
+
+    .containerCenterArea
+        margin-top: 3.7em
+        margin-left: 2em
+
+    .sidebar
+        flex-basis: 23ex
+        flex-shrink: 0
+        flex-grow: 2
+        margin: 12.5em 2em 2em 4em
+
+        font-size: 0.7rem
+
+        &__heading
+            margin-top: 0
+
+
+    // =========================
+    // = Section/Page specific =
+    // =========================
+
+    // None yet
+
+// --/min-width: $mqSmallTablet
+
+
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+
+@media only screen and (min-width: $mqDesktop)
+
+    // =======================
+    // = Following page flow =
+    // =======================
+
+    .containerPage
+        font-size: 1.1rem
+
+    #mainHeading
+        font-size: 3em
+
+    .containerCenterArea
+        margin-top: 1.9em
+
+    .sidebar
+        flex-basis: 23ex
+        margin-top: 11em
+        font-size: 0.8rem
+
+// --/min-width: $mqDesktop
+
+
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+
+@media only screen and (min-width: $mqFull)
+    //
+// --/min-width: $mqFull
