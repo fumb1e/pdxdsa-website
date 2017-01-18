@@ -708,6 +708,14 @@
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-web.woff2",
 		"oF": 0
 		},
+	"\/assets\/images\/logo@2x.png": {
+		"ft": 32768,
+		"iS": 21093,
+		"oA": 0,
+		"oAP": "\/assets\/images\/logo@2x.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/socialIconFacebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -769,12 +777,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/favicon.ico": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/favicon.ico",
-		"oF": 0
-		},
 	"\/humans.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -820,7 +822,7 @@
 	"creationDate": 506122909,
 	"displayValue": "PDX-DSA",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/apple-touch-icon.png"
+	"iconImageName": "\/favicon-152.png"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
