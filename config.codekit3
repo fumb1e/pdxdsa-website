@@ -716,6 +716,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/socialCard.png": {
+		"ft": 32768,
+		"iS": 19640,
+		"oA": 0,
+		"oAP": "\/assets\/images\/socialCard.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/images\/socialIconFacebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -776,6 +784,12 @@
 		"oAP": "\/favicon-152.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
 		},
 	"\/humans.txt": {
 		"ft": 8192,
