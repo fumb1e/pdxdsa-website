@@ -7,7 +7,7 @@
 		"uuidString": "A39CC11D-C562-4BC3-B24F-7B869617E835"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/.editorconfig": {
 		"ft": 8192,
@@ -33,6 +33,22 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/assets\/css\/compiled.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/compiled-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/compiled.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/css\/compiled.css.map",
+		"oF": 0
+		},
 	"\/assets\/css\/dev.css": {
 		"aP": 0,
 		"bl": 0,
@@ -40,42 +56,6 @@
 		"ma": 0,
 		"oA": 2,
 		"oAP": "\/assets\/css\/dev-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/assets\/css\/main.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/assets\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/assets\/css\/main.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/main.css.map",
-		"oF": 0
-		},
-	"\/assets\/css\/normalize.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/assets\/css\/normalize-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/assets\/css\/normalize.min.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/assets\/css\/normalize.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -298,8 +278,8 @@
 		"ft": 2,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/assets\/css\/main.css",
-		"oF": 1,
+		"oAP": "\/assets\/css\/compiled.css",
+		"oF": 3,
 		"oS": 3,
 		"uL": 1
 		},
@@ -753,6 +733,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/vendor\/fontfaceobserver.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/vendor\/fontfaceobserver.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/vendor\/html5shiv.js": {
 		"ft": 64,
 		"mi": 1,
@@ -789,6 +778,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/googlea4458dca75ccf534.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/googlea4458dca75ccf534.html",
 		"oF": 0
 		},
 	"\/humans.txt": {
@@ -1484,6 +1479,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -2023,6 +2022,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,

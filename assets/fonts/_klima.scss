@@ -1,154 +1,157 @@
+// 2017-01-30, 2:09 PM - joel@pdg
+// svg font loading was suuuuuucking on iOS
+
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 100;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-ultralight-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-ultralight-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-ultralight-web.svg#klimaultralight') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-ultralight-web.svg#klimaultralight') format('svg'),
         url('#{$assetPath}fonts/klima/klima-ultralight-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-ultralight-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-ultralight-web.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 100;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.svg#klimaultralight_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.svg#klimaultralight_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-ultralight-italic-web.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 300;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-light-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-light-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-light-web.svg#klimalight') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-light-web.svg#klimalight') format('svg'),
         url('#{$assetPath}fonts/klima/klima-light-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-light-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-light-web.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 300;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-light-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-light-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-light-italic-web.svg#klimalight_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-light-italic-web.svg#klimalight_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-light-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-light-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-light-italic-web.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 400;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-regular-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-regular-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-regular-web.svg#klimaregular') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-regular-web.svg#klimaregular') format('svg'),
         url('#{$assetPath}fonts/klima/klima-regular-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-regular-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-regular-web.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 400;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-regular-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-regular-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-regular-italic-web.svg#klimaregular_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-regular-italic-web.svg#klimaregular_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-regular-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-regular-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-regular-italic-web.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 600;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-medium-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-medium-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-medium-web.svg#klimamedium') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-medium-web.svg#klimamedium') format('svg'),
         url('#{$assetPath}fonts/klima/klima-medium-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-medium-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-medium-web.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 600;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-medium-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-medium-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-medium-italic-web.svg#klimamedium_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-medium-italic-web.svg#klimamedium_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-medium-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-medium-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-medium-italic-web.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 700;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-bold-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-bold-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-bold-web.svg#klimabold') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-bold-web.svg#klimabold') format('svg'),
         url('#{$assetPath}fonts/klima/klima-bold-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-bold-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-bold-web.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 700;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-bold-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-bold-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-bold-italic-web.svg#klimabold_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-bold-italic-web.svg#klimabold_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-bold-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-bold-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-bold-italic-web.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 800;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-heavy-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-heavy-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-heavy-web.svg#klimaheavy') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-heavy-web.svg#klimaheavy') format('svg'),
         url('#{$assetPath}fonts/klima/klima-heavy-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-heavy-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-heavy-web.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 800;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-heavy-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-heavy-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-heavy-italic-web.svg#klimaheavy_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-heavy-italic-web.svg#klimaheavy_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-heavy-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-heavy-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-heavy-italic-web.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 900;
+    font-style: normal;
     src:url('#{$assetPath}fonts/klima/klima-ultra-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-ultra-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-ultra-web.svg#klimaultra') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-ultra-web.svg#klimaultra') format('svg'),
         url('#{$assetPath}fonts/klima/klima-ultra-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-ultra-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-ultra-web.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
 }
 @font-face {
     font-family: 'KlimaWeb';
+    font-weight: 900;
+    font-style: italic;
     src:url('#{$assetPath}fonts/klima/klima-ultra-italic-web.eot');
     src:url('#{$assetPath}fonts/klima/klima-ultra-italic-web.eot?#iefix') format('embedded-opentype'),
-        url('#{$assetPath}fonts/klima/klima-ultra-italic-web.svg#klimaultra_italic') format('svg'),
+        // url('#{$assetPath}fonts/klima/klima-ultra-italic-web.svg#klimaultra_italic') format('svg'),
         url('#{$assetPath}fonts/klima/klima-ultra-italic-web.woff2') format('woff2'),
         url('#{$assetPath}fonts/klima/klima-ultra-italic-web.woff') format('woff'),
         url('#{$assetPath}fonts/klima/klima-ultra-italic-web.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
 }
