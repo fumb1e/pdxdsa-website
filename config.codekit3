@@ -688,26 +688,6 @@
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-web.woff2",
 		"oF": 0
 		},
-	"\/assets\/images\/from afd.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/images\/from afd.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/images\/from-ai.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/images\/from-ai.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/images\/logo@2x.png": {
 		"ft": 32768,
 		"iS": 21093,
@@ -850,6 +830,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/signup\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/signup\/index.html",
 		"oF": 0
 		}
 	},
