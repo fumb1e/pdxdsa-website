@@ -7,7 +7,7 @@
 		"uuidString": "A39CC11D-C562-4BC3-B24F-7B869617E835"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/.editorconfig": {
 		"ft": 8192,
@@ -691,18 +691,22 @@
 	"\/assets\/images\/logo@2x.png": {
 		"ft": 32768,
 		"iS": 21093,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/logo@2x.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/socialCard.png": {
 		"ft": 32768,
 		"iS": 19640,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/socialCard.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/socialIconFacebook.svg": {
 		"ft": 2097152,
@@ -779,10 +783,12 @@
 	"\/favicon-152.png": {
 		"ft": 32768,
 		"iS": 3390,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/favicon-152.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/favicon.ico": {
 		"ft": 8192,
@@ -845,7 +851,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 506122909,
-	"displayValue": "PDX-DSA",
+	"displayValue": "DSA - Starter website",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "\/favicon-152.png"
 	},
@@ -1519,6 +1525,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1998,6 +2008,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2598,7 +2612,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2691,7 +2706,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
