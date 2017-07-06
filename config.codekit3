@@ -7,7 +7,7 @@
 		"uuidString": "A39CC11D-C562-4BC3-B24F-7B869617E835"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.editorconfig": {
 		"ft": 8192,
@@ -839,6 +839,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
+		"oF": 0
+		},
+	"\/signin\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/signin\/index.html",
 		"oF": 0
 		},
 	"\/signup\/index.html": {
@@ -2792,6 +2798,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
