@@ -821,6 +821,12 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/newsletter\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/newsletter\/index.html",
+		"oF": 0
+		},
 	"\/README.md": {
 		"cS": 0,
 		"eF": 1,
