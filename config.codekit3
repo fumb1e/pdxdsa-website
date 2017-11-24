@@ -7,27 +7,31 @@
 		"uuidString": "A39CC11D-C562-4BC3-B24F-7B869617E835"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26148",
 "files": {
 	"\/.editorconfig": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.editorconfig",
 		"oF": 0
 		},
 	"\/.gitattributes": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitattributes",
 		"oF": 0
 		},
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
 	"\/.htaccess": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.htaccess",
@@ -44,6 +48,7 @@
 		"oS": 0
 		},
 	"\/assets\/css\/compiled.css.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/compiled.css.map",
@@ -60,6 +65,7 @@
 		"oS": 0
 		},
 	"\/assets\/css\/sass\/.sass-cache\/e26ab93db2a911fdad0d226649dbc71edf9bb6ca\/main.sassc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/css\/sass\/.sass-cache\/e26ab93db2a911fdad0d226649dbc71edf9bb6ca\/main.sassc",
@@ -297,6 +303,7 @@
 		"uL": 1
 		},
 	"\/assets\/fonts\/klima\/klima-bold-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-bold-italic-web.eot",
@@ -313,18 +320,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-bold-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-bold-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-bold-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-bold-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-bold-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-bold-web.eot",
@@ -341,18 +351,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-bold-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-bold-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-bold-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-bold-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-heavy-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-heavy-italic-web.eot",
@@ -369,18 +382,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-heavy-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-heavy-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-heavy-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-heavy-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-heavy-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-heavy-web.eot",
@@ -397,18 +413,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-heavy-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-heavy-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-heavy-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-heavy-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-light-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-light-italic-web.eot",
@@ -425,18 +444,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-light-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-light-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-light-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-light-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-light-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-light-web.eot",
@@ -453,18 +475,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-light-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-light-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-light-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-light-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-medium-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-medium-italic-web.eot",
@@ -481,18 +506,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-medium-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-medium-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-medium-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-medium-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-medium-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-medium-web.eot",
@@ -509,18 +537,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-medium-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-medium-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-medium-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-medium-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-regular-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-regular-italic-web.eot",
@@ -537,18 +568,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-regular-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-regular-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-regular-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-regular-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-regular-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-regular-web.eot",
@@ -565,18 +599,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-regular-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-regular-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-regular-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-regular-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultra-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultra-italic-web.eot",
@@ -593,18 +630,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultra-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultra-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultra-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultra-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultra-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultra-web.eot",
@@ -621,18 +661,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultra-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultra-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultra-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultra-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultralight-italic-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-italic-web.eot",
@@ -649,18 +692,21 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultralight-italic-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-italic-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultralight-italic-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-italic-web.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultralight-web.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-web.eot",
@@ -677,12 +723,14 @@
 		"prP": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultralight-web.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-web.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/klima\/klima-ultralight-web.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/klima\/klima-ultralight-web.woff2",
@@ -781,6 +829,7 @@
 		"tS": 0
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/browserconfig.xml",
@@ -798,40 +847,45 @@
 		"q": 100
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
 	"\/googlea4458dca75ccf534.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/googlea4458dca75ccf534.html",
 		"oF": 0
 		},
 	"\/humans.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/humans.txt",
 		"oF": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/newsletter\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/newsletter\/index.html",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -846,18 +900,21 @@
 		"uCM": 0
 		},
 	"\/robots.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
 		},
 	"\/signin\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/signin\/index.html",
 		"oF": 0
 		},
 	"\/signup\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/signup\/index.html",
@@ -1408,6 +1465,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -1472,9 +1533,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1504,6 +1565,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1513,14 +1578,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2624,7 +2681,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 2,
@@ -2657,6 +2715,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2698,7 +2757,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2730,13 +2790,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2745,7 +2805,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2765,7 +2826,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2793,7 +2855,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
