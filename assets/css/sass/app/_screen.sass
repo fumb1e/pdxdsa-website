@@ -32,6 +32,13 @@ strong
 // = Global classes =
 // ==================
 
+.calloutBox
+    border: 2px dashed rgba(204, 204, 204, 0.5)
+    border-radius: 15px
+    padding: 0.5em
+
+    text-align: center
+
 .clickableCalloutButton
     display: inline-block
     margin: 0.4em 0
@@ -124,6 +131,32 @@ strong
 
     &__calendarLink
         margin-top: 1.5em
+
+.forOurMembersBox
+    font-size: 1rem
+
+    padding: 0.5em
+    border: $borderStyle1
+    margin-bottom: 1em
+
+    &__title
+        font-size: 1em
+
+        // Negative margin to bleed to edge
+        margin: -0.5em
+        margin-bottom: 1em
+        padding: 0.5em
+
+        background-color: $colorRed
+        color: white
+
+    &__heading
+        @extend %headings
+
+        font-size: 1em
+
+    &__item
+        margin-top: 0
 
 // =========================
 // = Section/Page specific =
