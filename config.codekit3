@@ -7,7 +7,7 @@
 		"uuidString": "A39CC11D-C562-4BC3-B24F-7B869617E835"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26268",
 "files": {
 	"\/.editorconfig": {
 		"cB": 0,
@@ -758,6 +758,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/socialIconEmail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/socialIconEmail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/socialIconFacebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -930,6 +940,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1493,6 +1504,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
