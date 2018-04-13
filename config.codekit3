@@ -7,7 +7,7 @@
 		"uuidString": "A39CC11D-C562-4BC3-B24F-7B869617E835"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.editorconfig": {
 		"cB": 0,
@@ -932,7 +932,8 @@
 	"creationDate": 506122909,
 	"displayValue": "DSA - Starter website",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "\/favicon-152.png"
+	"iconImageName": "\/favicon-152.png",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2735,6 +2736,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
