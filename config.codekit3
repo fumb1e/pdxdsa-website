@@ -922,6 +922,13 @@
 		"oA": 2,
 		"oAP": "\/signup\/index.html",
 		"oF": 0
+		},
+	"\/summerdayschool\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/summerdayschool\/index.html",
+		"oF": 0
 		}
 	},
 "hooks": [
